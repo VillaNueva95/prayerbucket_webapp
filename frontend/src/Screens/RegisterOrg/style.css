@@ -1,0 +1,194 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #686a80;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #686a80;
+  }
+  
+  .form-container {
+    background-color: #686a80;
+    border-radius: 8px;
+    width: 374px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    height: 172px;
+    width: 174px;
+    object-fit: cover;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    width: 65%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group label {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    align-self: flex-start; 
+  }
+  
+  .input-field, .input-select {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid #dfdfdf;
+    outline: none;
+    font-size: 14px;
+    color: #828282;
+    background-color: #fff; /* Ensure background is white for readability */
+  }
+  
+  .input-field::placeholder {
+    color: #828282;
+  }
+  
+  .input-field:focus, .input-select:focus {
+    border-color: #5f31e2; /* Add focus border color */
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #5f31e2;
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width: 70%;
+    margin-top: 60px;
+  }
+  
+  .login-button:hover {
+    background-color: #4a26ba;
+  }
+  
+  .link-text {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right; /* Ensure the text is aligned to the right */
+    cursor: pointer;
+    align-self: flex-end; /* Align the text to the right within the container */
+  }
+  
+  .error-message {
+    color: rgb(246, 232, 152);
+    margin-top: 30px;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+  
+  .avatar-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  }
+  
+  .avatar-input {
+  margin-top: 10px;
+  }
+  
+  .error-message {
+  color: rgb(246, 232, 152);
+  margin-top: 10px;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  }
+  
+  .submit-button, .login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #5f31e2;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  }
+  
+  .submit-button:hover, .login-button:hover {
+  background-color: #4821a6;
+  }
+  
+  /* Additional CSS for dropdown alignment */
+  .box {
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    margin-bottom: 20px;
+  }
+  
+  .box .drop-downs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .box .org-type,
+  .box .language {
+    width: 48%;
+  }
+  
+  .box .element-dropdown {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .box .label {
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
