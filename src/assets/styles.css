@@ -1,0 +1,89 @@
+/* assets/style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scriptures-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.scriptures-container {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  width: 30%;
+}
+
+.form-control:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
+}
+
+.custom-btn {
+  background-color: #5F31E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.custom-btn:hover {
+  background-color: #4A25B6;
+}
+
+.header {
+  width: 100%;
+  background-color: #4f46e5;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #4f46e5;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bible-text {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+.placeholder-text {
+  text-align: center;
+  color: #888;
+}
